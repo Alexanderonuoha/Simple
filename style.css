@@ -213,7 +213,7 @@ button:active {
 }
 
 .note{
-    font-size:0.4em;
+    font-size:0.5em;
     background-color:#fff;
     color:#000;
     text-align: center;
@@ -223,7 +223,7 @@ button:active {
 .clm {
     text-align:left;
     font-weight:bold;
-    font-size:0.4em;
+    font-size:0.7em;
 }
     
 
