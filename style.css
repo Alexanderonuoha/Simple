@@ -23,7 +23,7 @@ Body {
    
 }
 .text {
-    font-size: 1.7em;
+    font-size: 1.2em;
     color: #0D47A1;
     item-align: center;
     text-align: center;
@@ -187,13 +187,13 @@ button {
     border: none;
     border-radius: 14px; 
     cursor: pointer; 
-    font-size: 16px; 
+    font-size: 0.3em; 
     transition: background-color 0.3s, transform 7s;
 }
 .show {
     font-family: 'Arial',sans-serif;
     color: #2a2f33;
-    font-size: 18px;
+    font-size: 1em;
     background-color: #f0f4f8;
     border-left: 5px solid #3498db; 
     padding: 10px 20px; 
@@ -213,7 +213,7 @@ button:active {
 }
 
 .note{
-    font-size:0.9em;
+    font-size:0.4em;
     background-color:#fff;
     color:#000;
     text-align: center;
@@ -223,7 +223,7 @@ button:active {
 .clm {
     text-align:left;
     font-weight:bold;
-    font-size:1.0em;
+    font-size:0.4em;
 }
     
 
@@ -289,11 +289,12 @@ tr:nth-child(odd) {
 
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 5px;
     background-color: #000;
     color: white;
     clear: both;
     position: relative;
+    font-size:0.5em;
 }
 
     form, img {
