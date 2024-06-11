@@ -128,12 +128,13 @@ tr:nth-child(odd) {
 }
 
 footer{
-    padding: 30px;
+    padding: 20px;
     background-color: #000;
     color: white;
     clear: both;
     position: relative;
     text-align: Left;
+    font-size: 0.6em;
 }
 .paragraph{
     font-weight:bold;
