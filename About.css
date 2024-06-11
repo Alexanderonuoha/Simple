@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #e6f7ff 0%, #b3d9ff 100%);
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5  ;
+    color: #333;
+    background-size: 100%;
+    background-repeat: repeat;
+    min-height: 150vh; 
+    overflow-x: hidden;
+}
+
+header {
+    u: #1a73e8; 
+    background-color:#000;
+    color: #ffff;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navigation {
+    background: linear-gradient(145deg, #1a73e8, #174ea6);
+    left: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}   
+     
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border-radius: 5px; 
+
+
+.navigation li {
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.navigation li:last-child {
+    border-bottom: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navigation a:hover, .navigation a:focus {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.heading{
+    font-weight:bold;
+    font-size:1.7em; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);      
+}
+
+.paragraph{
+    font-size:1.15em;
+    padding :30px;
+    margin:0 10px ;
+    background-color:#eeeeee;
+    font-family:Montserrat;
+}
+
+footer{
+    background-color:#000;
+    color:#fff;
+    padding: 20px;
+}
+
+.design{
+    color: #ffff;
+    font-size:1em;
+}
+
+.icon-link {
+    text-decoration: none; 
+    color: #ffff;          
+    font-size: 34px;       
+    margin-right: 10px;
+    padding-left:30px;     
+    transition:background-color 0.3s, transform 7s;
+}
+
+.icon-link:hover {
+    color: #555;            
+}
+.cap{
+    font-size:1.15em;
+}

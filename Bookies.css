@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #e6f7ff 0%, #b3d9ff 100%);
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    background-size: 100%;
+    background-repeat: repeat;
+    min-height: 150vh; 
+    overflow-x: hidden;
+        
+}
+
+header {
+    background-color: #000;
+    color: #ffff;
+    padding:5px;
+ }
+ 
+ .navigation {
+    background: linear-gradient(145deg, #1a73e8, #174ea6);
+    left: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}   
+     
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border-radius: 5px; 
+
+
+.navigation li {
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.navigation li:last-child {
+    border-bottom: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navigation a:hover, .navigation a:focus {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+ .great {
+    width:360px;
+    height: 80px;
+    top:0 ;
+    left:0 ;
+}
+
+.bookies{
+    text-align: center;
+    background-color:#000;
+    color:white;
+    padding:15px;   
+}
+
+.paragraph{
+    font-family: sans-serif;
+    text-align:center;
+    font-size:1.2em;
+    font-weight:bold;
+    position:relative;
+    padding :10px;
+}
+.code{
+    font-size: 1.7em;
+    color: #ffff;
+    item-align: center;
+    text-align: center;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    background-color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); 
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+table {
+    width: 100%;
+    max-width:100%
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px #0000;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+th {
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+tr {
+    border-bottom: 1px solid red; 
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.col-special {
+    border-left: 3px solid red;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #000;
+    color: white;
+    clear: both;
+    position: relative;
+    font-weight:bold;
+    font-size:1.5;
+}
