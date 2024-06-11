@@ -85,6 +85,9 @@ header {
     transition: transform 0.3s ease-in-out;
 }
 
+.table{
+    font-size:0.9em;
+}
 
 table {
     width: 100%;
