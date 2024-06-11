@@ -51,7 +51,7 @@ header {
 .navigation a {
     display: block;
     padding: 15px 20px;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -70,7 +70,7 @@ header {
 }
 
 .paragraph{
-    font-size:1.15em;
+    font-size:0.9em;
     padding :30px;
     margin:0 10px ;
     background-color:#eeeeee;
@@ -85,7 +85,7 @@ footer{
 
 .design{
     color: #ffff;
-    font-size:1em;
+    font-size:0.7em;
 }
 
 .icon-link {
